@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Bar | Watching Anime</title>
+
+    <!-- link my bootstraps -->
+    <link rel="stylesheet" href="/assets/bootstraps/css/bootstrap.min.css">
+
+    <!-- link my bootstrap icons -->
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.scss">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!-- icon my web -->
+    <link rel="icon web" type="png" href="/assets/images/cinebar-icon-web.jpeg">
+
+    <!-- link font family poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- link swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+
+
+    <!-- navbar -->
+    <div class="navbar-container d-flex justify-content-between align-items-center px-5 py-4">
+
+        <!-- nav-title -->
+        <div class="nav-title">
+            <a href="#" class="text-light fs-4 fw-medium fst-italic text-capitalize">anime<span>Bar</span></a>
+        </div>
+
+        <!-- navbar links -->
+        <div class="navlinks text-capitalize d-flex justify-content-between align-items-center gap-3">
+            <a href="#home" class="nav-item">home</a>
+            <a href="#updated" class="nav-item">updated</a>
+            <a href="#completed" class="nav-item">completed</a>
+            <!-- <a href="#newsletter" class="nav-item">newsletter</a> -->
+        </div>
+
+        <!-- btn sign up -->
+        <a href="#" class="btn text-light px-2 text-capitalize d-flex justify-content-center align-items-center gap-2">
+            <i class="bi bi-box-arrow-in-right"></i> sign in
+        </a>
+
+        <!-- nav menu -->
+        <div class="navlinks-breakpoint" id="navbarBreakpoint">
+            <a href="#home" class="nav-item">home</a>
+            <a href="#updated" class="nav-item">updated</a>
+            <a href="#completed" class="nav-item">completed</a>
+            <!-- <a href="#newsletter" class="nav-item">newsletter</a> -->
+            <a href="#" class="btn breakpoint text-light px-4 text-capitalize">sign in</a>
+        </div>
+
+        <!-- hamburger -->
+        <label class="hamburger">
+            <input type="checkbox" id="checkbox">
+            <svg viewBox="0 0 32 32">
+                <path class="line line-top-bottom"
+                    d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                </path>
+                <path class="line" d="M7 16 27 16"></path>
+            </svg>
+        </label>
+
+    </div>
+    <!-- end navbar -->
+
+
+
+    <!-- hero -->
+    <section class="hero swiper mySwiper" id="home">
+
+        <!-- slider -->
+        <div class="swiper-wrapper">
+
+            <!-- content satu -->
+            <div class="swiper-slide" data-paroller-factor="0.5" data-paroller-factor-xs="0.2">
+
+                <!-- overlay -->
+                <div class="overlay"></div>
+
+                <!-- main content -->
+                <div class="main-hero text-light d-flex flex-column justify-content-center" style="padding: 0 80px;">
+                    <h1 class="text-capitalize">kimi no na wa :</h1>
+                    <p>
+                        "Your Name." (2016) is a Japanese animated film about a body swap between two high school
+                        students who have never met, Taki and Mitsuha, which results in chaos in their lives. Inspired
+                        by natural disasters in Japan.
+                    </p>
+                    <div class="btn text-light px-4">See Now</div>
+                </div>
+
+            </div>
+
+            <!-- content dua -->
+            <div class="swiper-slide" data-paroller-factor="0.5" data-paroller-factor-xs="0.2">
+
+                <!-- overlay -->
+                <div class="overlay"></div>
+
+                <!-- main content -->
+                <div class="main-hero text-light d-flex flex-column justify-content-center" style="padding: 0 80px;">
+                    <h1 class="text-capitalize">kage no jitsuryokusha :</h1>
+                    <p>
+                        This anime follows the story of Cid Kagenou, who gets a second chance in the world of magic
+                        after failing to achieve his goals in modern Japan. He leads a secret organization, Shadow
+                        Garden, which aims to destroy an evil cult.
+                    </p>
+                    <div class="btn text-light px-4">See Now</div>
+                </div>
+
+            </div>
+
+            <!-- content tiga -->
+            <div class="swiper-slide" data-paroller-factor="0.5" data-paroller-factor-xs="0.2">
+
+                <!-- overlay -->
+                <div class="overlay"></div>
+
+                <!-- main content -->
+                <div class="main-hero text-light d-flex flex-column justify-content-center" style="padding: 0 80px;">
+                    <h1 class="text-capitalize">jujutsu kaisen :</h1>
+                    <p>
+                        Jujutsu Kaisen is a Japanese manga by Gege Akutami that began in March 2018 in Weekly Shōnen
+                        Jump. Follows Yuji Itadori, a high school student who joins the secret organization Jujutsu
+                        Sorcerers to eliminate the powerful Curse named Ryomen Sukuna who is his master.
+                    </p>
+                    <div class="btn text-light px-4">See Now</div>
+                </div>
+
+            </div>
+
+            <!-- content -->
+            <div class="swiper-slide" data-paroller-factor="0.5" data-paroller-factor-xs="0.2">
+
+                <!-- overlay -->
+                <div class="overlay"></div>
+
+                <!-- main content -->
+                <div class="main-hero text-light d-flex flex-column justify-content-center" style="padding: 0 80px;">
+                    <h1 class="text-capitalize">spy x family :</h1>
+                    <p>
+                        The anime follows the journey of Hyakkimaru, a child who was born without limbs due to a devil's
+                        pact. He meets a young thief named Dororo and the two of them explore a world full of dangers to
+                        recover Hyakkimaru's lost body parts.
+                    </p>
+                    <div class="btn text-light px-4">See Now</div>
+                </div>
+
+            </div>
+            <!-- content -->
+
+            <div class="swiper-slide" data-paroller-factor="0.5" data-paroller-factor-xs="0.2">
+
+                <!-- overlay -->
+                <div class="overlay"></div>
+
+                <!-- main content -->
+                <div class="main-hero text-light d-flex flex-column justify-content-center" style="padding: 0 80px;">
+                    <h1 class="text-capitalize">Dororo :</h1>
+                    <p>
+                        The anime Dororo follows the journey of Hyakkimaru, a child who was born without limbs due to a
+                        devil's pact. He meets a young thief named Dororo and the two of them explore a world full of
+                        dangers to recover Hyakkimaru's lost body parts.
+                    </p>
+                    <div class="btn text-light px-4">See Now</div>
+                </div>
+
+            </div>
+
+            <!-- content -->
+            <div class="swiper-slide" data-paroller-factor="0.5" data-paroller-factor-xs="0.2">
+
+                <!-- overlay -->
+                <div class="overlay"></div>
+
+                <!-- main content -->
+                <div class="main-hero text-light d-flex flex-column justify-content-center" style="padding: 0 80px;">
+                    <h1 class="text-capitalize">one piece :</h1>
+                    <p>
+                        "One Piece" is a Japanese manga that tells the adventures of Monkey D. Luffy and his pirate
+                        crew, the Straw Hat Pirates, in searching for the legendary treasure, "One Piece," on the Grand
+                        Line. The manga began in July 1997 and has produced 105 tankōbon volumes as of March 2023.
+                    </p>
+                    <div class="btn text-light px-4">See Now</div>
+                </div>
+
+            </div>
+
+            <!-- content -->
+            <div class="swiper-slide" data-paroller-factor="0.5" data-paroller-factor-xs="0.2">
+
+                <!-- overlay -->
+                <div class="overlay"></div>
+
+                <!-- main content -->
+                <div class="main-hero text-light d-flex flex-column justify-content-center" style="padding: 0 80px;">
+                    <h1 class="text-capitalize">black clover :</h1>
+                    <p>
+                        The anime "Black Clover" tells the story of Asta, a child without magic in a world where magic
+                        is very important. With Yuno, his best friend who is talented in magic, they dream of becoming
+                        Magic Kings. Asta receives a rare grimoire that gives him anti-magic powers. Together, they face
+                        the Eye of the Midnight Sun and other challenges.
+                    </p>
+                    <div class="btn text-light px-4">See Now</div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- panagation -->
+        <div class="swiper-pagination"></div>
+
+        <!-- arrow swiper -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <!-- swiper autoplay progress -->
+        <div class="autoplay-progress">
+            <svg viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="20"></circle>
+            </svg>
+            <span></span>
+        </div>
+    </section>
+    <!-- end hero -->
+
+
+
+    <!-- anime this week -->
+    <section class="list-this-week" id="updated">
+        <div class="title-sec">
+            <h3 class="text-capitalize text-light">upda<span>ted</span></h3>
+        </div>
+
+        <!-- content -->
+        <div class="content pt-5 d-flex flex-wrap gap-5">
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/goblin-slayer.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">goblin slayer season 2</a>
+                    <small><span class="fw-semibold">genre</span>: action, adventure, thriller, fantasy</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>7.23</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime\/Mushoku-Tensei.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Mushoku Tensei II: Isekai Ittara Honki Dasu</a>
+                    <small><span class="fw-semibold">genre: </span>Adventure, Drama, Ecchi, Fantasy, Isekai,
+                        Reincarnation</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>8.35</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/Tensei-shitara.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Tensei shitara Slime Datta Ken Season 3</a>
+                    <small><span class="fw-semibold">genre: </span>Action, Adventure, Comedy, Fantasy, Isekai,
+                        Reincarnation, Shounen</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>8.34</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/one-piece.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">one piece</a>
+                    <small><span class="fw-semibold">genre: </span> Action, Adventure, Comedy, Drama, Fantasy, Shounen,
+                        Super Power</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>8.54</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/undead-unlock.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">undead unlock</a>
+                    <small><span class="fw-semibold">genre: </span> Action, Comedy, Shounen, Super Power,
+                        Supernatural</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>7.81</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/ao-no.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">ao no exorcise season 3</a>
+                    <small><span class="fw-semibold">genre: </span> Action, Fantasy, Mythology, School, Shounen</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>7.02</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/kimizero.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">kimizero</a>
+                    <small><span class="fw-semibold">genre: </span> romance, school</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>6.75</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/blue-archieve.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Blue Archive the Animation</a>
+                    <small><span class="fw-semibold">genre: </span> Action, Fantasy, School</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>8.34</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/tsuki-ga.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Tsuki ga Michibiku Isekai Douchuu Season 2</a>
+                    <small><span class="fw-semibold">genre: </span> Action, Adventure, Comedy, Fantasy, Isekai</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>7.45</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/Mushoku-Tensei-2-2.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2</a>
+                    <small><span class="fw-semibold">genre: </span> Adventure, Drama, , Fantasy, Isekai,
+                        Reincarnation</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>8.33</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/sentai.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Sentai Daishikkaku</a>
+                    <small><span class="fw-semibold">genre: </span> Action, Sci-Fi, Shounen</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>7.25</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/yozakura.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Yozakura-san Chi no Daisakusen</a>
+                    <small><span class="fw-semibold">genre: </span> Action, Comedy, Shounen</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>-</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/tensei-dianana.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Tensei shitara Dainana Ouji Datta node</a>
+                    <small><span class="fw-semibold">genre: </span> Adventure, Fantasy, Reincarnation</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>-</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/one-room.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">One Room, Hiatari Futsuu, Tenshi-tsuki.</a>
+                    <small><span class="fw-semibold">genre</span>: Comedy, Harem, Mythology, Romance, Shounen,
+                        Supernatural</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>7.01</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/Tensei-shitara-s3.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Tensei shitara Slime Datta Ken Season 3</a>
+                    <small><span class="fw-semibold">genre: </span> Action, Adventure, Comedy, Fantasy, Isekai,
+                        Reincarnation, Shounen</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>8.34</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/yuru-camp.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Yuru Camp△ Season 3</a>
+                    <small><span class="fw-semibold">genre</span>: Comedy, Slice of Life</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>8.18</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/solo-leveling.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">solo leveling</a>
+                    <small><span class="fw-semibold">genre: </span> Action, Adventure, Fantasy</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>8.26</small>
+                </div>
+            </div>
+
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/ragna-crimson.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">ragna crimson</a>
+                    <small><span class="fw-semibold">genre</span> Action, Fantasy, Shounen</small>
+                    <small><span class="fw-semibold">status: </span>ongoing</small>
+                    <small><span class="fw-semibold">rating: </span>7.27</small>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="#" class="btn mt-5 text-capitalize d-flex align-items-center gap-2">
+            see more <i class="bi bi-caret-right"></i>
+        </a>
+    </section>
+    <!-- end -->
+
+
+
+    <!-- completed -->
+    <section class="completed" id="completed">
+        <div class="title-sec">
+            <h3 class="text-capitalize text-light">comple<span>ted</span></h3>
+        </div>
+
+        <!-- content -->
+        <div class="content pt-5 d-flex flex-wrap gap-5">
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/tate-no-yuusha.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Tate no Yuusha no Nariagari Season 3</a>
+                    <small><span class="fw-semibold">genre: </span>Action, Adventure, Drama, Fantasy, Isekai</small>
+                    <small><span class="fw-semibold">status: </span>completed</small>
+                    <small><span class="fw-semibold">rating: </span>7.13</small>
+                </div>
+            </div>
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/re-zero-s2.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Re:Zero kara Hajimeru Isekai Seikatsu Season 2</a>
+                    <small><span class="fw-semibold">genre: </span>Drama, Fantasy, Psychological, Thriller</small>
+                    <small><span class="fw-semibold">status: </span>completed</small>
+                    <small><span class="fw-semibold">rating: </span>8.67</small>
+                </div>
+            </div>
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/fate-zero.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">fate/zero</a>
+                    <small><span class="fw-semibold">genre: </span>Action, Fantasy, Magic, Supernatural</small>
+                    <small><span class="fw-semibold">status: </span>completed</small>
+                    <small><span class="fw-semibold">rating: </span>8.46</small>
+                </div>
+            </div>
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/no-game-no-life.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">no game no life: zero</a>
+                    <small><span class="fw-semibold">genre: </span>Comedy, Fantasy, Game, Supernatural</small>
+                    <small><span class="fw-semibold">status: </span>completed</small>
+                    <small><span class="fw-semibold">rating: </span>8.56</small>
+                </div>
+            </div>
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/re-zero.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Re: Zero kara Hajimeru Isekai Seikatsu</a>
+                    <small><span class="fw-semibold">genre: </span>Drama, Fantasy, Psychological, Thriller</small>
+                    <small><span class="fw-semibold">status: </span>completed</small>
+                    <small><span class="fw-semibold">rating: </span>8.45</small>
+                </div>
+            </div>
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/nozomanu.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Nozomanu Fushi no Boukensha</a>
+                    <small><span class="fw-semibold">genre: </span>Action, Adventure, Fantasy</small>
+                    <small><span class="fw-semibold">status: </span>completed</small>
+                    <small><span class="fw-semibold">rating: </span>7.45</small>
+                </div>
+            </div>
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/Dead-Mount.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Dead Mount Death Play Part 2</a>
+                    <small><span class="fw-semibold">genre: </span>Action, Fantasy, Reincarnation, Seinen,
+                        Supernatural</small>
+                    <small><span class="fw-semibold">status: </span>completed</small>
+                    <small><span class="fw-semibold">rating: </span>7.50</small>
+                </div>
+            </div>
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/jujutsu-kaisen.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">jujutsu kaisen season 2</a>
+                    <small><span class="fw-semibold">genre: </span>Action, Fantasy, Gore, School, Shounen</small>
+                    <small><span class="fw-semibold">status: </span>completed</small>
+                    <small><span class="fw-semibold">rating: </span>8.85</small>
+                </div>
+            </div>
+
+            <!-- card content -->
+            <div class="card-content d-flex gap-3">
+                <div class="image">
+                    <img src="/assets/images/anime/sousou-no.jpg" alt="" height="200">
+                </div>
+                <div class="dec text-capitalize d-flex flex-column gap-1 text-light">
+                    <a href="#" class="mb-3">Sousou no Frieren</a>
+                    <small><span class="fw-semibold">genre: </span>Adventure, Drama, Fantasy, Shounen</small>
+                    <small><span class="fw-semibold">status: </span>completed</small>
+                    <small><span class="fw-semibold">rating: </span>9.39</small>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="#" class="btn mt-5 text-capitalize d-flex align-items-center gap-2">
+            see more <i class="bi bi-caret-right"></i>
+        </a>
+    </section>
+    <!-- end completed -->
+
+
+
+    <!-- footer -->
+    <footer class="d-flex justify-content-evenly  gap-5">
+
+        <div class="about content-footer">
+            <!-- content -->
+            <div class="title-sec">
+                <h3 class="text-capitalize text-light">about anime<span>bar</span></h3>
+                <div class="line"></div>
+                <p class="text-light">
+                    AnimeBar is the official platform for watching anime legally. We offer a large collection of anime
+                    from various genres and are committed to complying with copyright. Join our community and discover
+                    the infinite world of anime!
+                </p>
+            </div>
+        </div>
+
+        <div class="info content-footer">
+            <!-- content -->
+            <div class="title-sec">
+                <h3 class="text-capitalize text-light">info anime<span>bar</span></h3>
+            </div>
+            <div class="line"></div>
+            <ul>
+                <li class="text-light"><span>Collection</span>: Huge collection of anime from various genres.</li>
+            </ul>
+            <ul>
+                <li class="text-light"><span>Community</span>: Join our forum to share opinions and recommendations with other anime fans.</li>
+            </ul>
+            <ul>
+                <li class="text-light"><span>Contact</span>: <a href="#">support@animebar.com</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+
+
+    <!-- script my bootstraps -->
+    <script src="/assets/bootstraps/js/bootstrap.min.js"></script>
+
+    <!-- my js -->
+    <script src="/assets/js/main.js"></script>
+
+    <!-- swiper js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper Hero-->
+    <script>
+        const progressCircle = document.querySelector(".autoplay-progress svg");
+        const progressContent = document.querySelector(".autoplay-progress span");
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            effect: "fade",
+            autoplay: {
+                delay: 7000,
+                disableOnInteraction: false
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                // dynamicBullets: true,
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+            on: {
+                autoplayTimeLeft(s, time, progress) {
+                    progressCircle.style.setProperty("--progress", 1 - progress);
+                    progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+                }
+            }
+        });
+    </script>
+
+    <!-- jparoller -->
+    <script src="/assets/js/jparoller.js"></script>
+
+    <!-- paroller -->
+    <script src="/assets/js/paroller.js"></script>
+
+    <!-- paroller -->
+    <script>
+        $('.swiper-slide').paroller();
+    </script>
+</body>
+
+</html>
